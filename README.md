@@ -3,6 +3,7 @@
 Page under construction.
 
 Module adaptation of qc71_laptop to DKMS.
+
 Included support for our Slimbook laptops (pborn branch pending merge)
 
 Package: slimbook-qc71-dkms
