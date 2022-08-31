@@ -9,8 +9,13 @@ Included support for our Slimbook laptops (pborn branch pending merge)
 --
 
 Package: slimbook-qc71-dkms
+
 Architecture: amd64
+
 Provides: slimbook-qc71-modules (= 0.3)
+
 Depends: dkms (>= 1.95), ${misc:Depends}
+
 Description: slimbook-qc71 driver in DKMS format.
+
 Slimbook service adaptation of pobrn/qc71_laptop
