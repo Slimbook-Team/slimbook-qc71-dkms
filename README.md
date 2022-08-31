@@ -18,4 +18,4 @@ Depends: dkms (>= 1.95), ${misc:Depends}
 
 Description: slimbook-qc71 driver in DKMS format.
 
-Slimbook service adaptation of pobrn/qc71_laptop
+Slimbook service implementation and adaptation of pobrn/qc71_laptop
