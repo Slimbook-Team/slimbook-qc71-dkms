@@ -27,7 +27,13 @@ static int __init slimbook_dmi_cb(const struct dmi_system_id *id)
 
 	return 1;
 }
+static int __init slimbook_titan_dmi_cb(const struct dmi_system_id *id)
+{
+	qc71_features.silent_mode  = true;
+	qc71_features.turbo_mode  = true;
 
+	return 1;
+}
 static const struct dmi_system_id qc71_dmi_table[] __initconst = {
 	{
 		.matches = {
@@ -72,6 +78,14 @@ static const struct dmi_system_id qc71_dmi_table[] __initconst = {
 		.callback = slimbook_dmi_cb,
 		.matches = {
 			DMI_EXACT_MATCH(DMI_PRODUCT_NAME,"PROX15-AMD5"),
+			{ }
+		}
+	},
+	{
+		/* Slimbook TITAN AMD5 */
+		.callback = slimbook_titan_dmi_cb,
+		.matches = {
+			DMI_EXACT_MATCH(DMI_PRODUCT_NAME,"TITAN"),
 			{ }
 		}
 	},
