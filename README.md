@@ -25,13 +25,12 @@ Slimbook service implementation and adaptation of [pobrn/qc71_laptop](https://gi
    sudo apt-add-repository ppa:slimbook/slimbook
    sudo apt install slimbook-qc71-dkms
 ```
-
-## Usage/Examples
-Run:
-
+After installing, if module does not load automatically, you can reboot or load module manually:
 ```
-slimbookindicator
+sudo modprobe qc71_laptop
 ```
+
+
 
 ### 🏠 [Homepage](https://github.com/slimbook/slimbookrgbkeyboard)
 
