@@ -54,6 +54,7 @@ static const struct dmi_system_id qc71_dmi_table[] __initconst = {
 		.callback = slimbook_dmi_cb,
 		.matches = {
 			DMI_EXACT_MATCH(DMI_PRODUCT_NAME, "PROX-AMD"),
+			DMI_EXACT_MATCH(DMI_BOARD_VENDOR, "SLIMBOOK"), 
 			{ }
 		}
 	},
@@ -62,6 +63,7 @@ static const struct dmi_system_id qc71_dmi_table[] __initconst = {
 		.callback = slimbook_dmi_cb,
 		.matches = {
 			DMI_EXACT_MATCH(DMI_PRODUCT_NAME, "PROX15-AMD"),
+			DMI_EXACT_MATCH(DMI_BOARD_VENDOR, "SLIMBOOK"),
 			{ }
 		}
 	},
@@ -70,6 +72,7 @@ static const struct dmi_system_id qc71_dmi_table[] __initconst = {
 		.callback = slimbook_dmi_cb,
 		.matches = {
 			DMI_EXACT_MATCH(DMI_PRODUCT_NAME,"PROX-AMD5"),
+			DMI_EXACT_MATCH(DMI_BOARD_VENDOR, "SLIMBOOK"),
 			{ }
 		}
 	},
@@ -78,6 +81,7 @@ static const struct dmi_system_id qc71_dmi_table[] __initconst = {
 		.callback = slimbook_dmi_cb,
 		.matches = {
 			DMI_EXACT_MATCH(DMI_PRODUCT_NAME,"PROX15-AMD5"),
+			DMI_EXACT_MATCH(DMI_BOARD_VENDOR, "SLIMBOOK"),
 			{ }
 		}
 	},
@@ -86,6 +90,24 @@ static const struct dmi_system_id qc71_dmi_table[] __initconst = {
 		.callback = slimbook_titan_dmi_cb,
 		.matches = {
 			DMI_EXACT_MATCH(DMI_PRODUCT_NAME,"TITAN"),
+			{ }
+		}
+	},
+	{
+		/* Executive 12th */
+		.callback = slimbook_dmi_cb,
+		.matches = {
+			DMI_EXACT_MATCH(DMI_PRODUCT_NAME, "Executive"),
+			DMI_EXACT_MATCH(DMI_BOARD_VENDOR, "SLIMBOOK"),
+			{ }
+		}
+	},
+	{
+		/* Executive-14 11th */
+		.callback = slimbook_dmi_cb,
+		.matches = {
+			DMI_EXACT_MATCH(DMI_PRODUCT_NAME, "EXECUTIVE-14"),
+			DMI_EXACT_MATCH(DMI_BOARD_VENDOR, "SLIMBOOK"),
 			{ }
 		}
 	},
