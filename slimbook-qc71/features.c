@@ -90,6 +90,7 @@ static const struct dmi_system_id qc71_dmi_table[] __initconst = {
 		.callback = slimbook_titan_dmi_cb,
 		.matches = {
 			DMI_EXACT_MATCH(DMI_PRODUCT_NAME,"TITAN"),
+			DMI_EXACT_MATCH(DMI_BOARD_VENDOR, "SLIMBOOK"),
 			{ }
 		}
 	},

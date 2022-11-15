@@ -1,9 +1,14 @@
-slimbook-qc71-dkms (0.1.1) focal; urgency=low
+slimbook-qc71-dkms (0.2.1) focal; urgency=low
 
   * Add vendor check for features.
 
  -- Slimbook <dev@slimbook.es>  Thu, 3 Nov 2022 11:52:04 +0200
 
+slimbook-qc71-dkms (0.2) focal; urgency=low
+
+  * Added titan performance mode handler.
+
+ -- Slimbook <dev@slimbook.es>  Fri, 19 Aug 2022 11:52:04 +0200
 
 slimbook-qc71-dkms (0.1) focal; urgency=low
 
