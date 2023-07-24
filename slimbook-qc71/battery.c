@@ -72,7 +72,7 @@ static struct attribute *qc71_laptop_batt_attrs[] = {
 };
 ATTRIBUTE_GROUPS(qc71_laptop_batt);
 
-static int qc71_laptop_batt_add(struct power_supply *battery)
+static int qc71_laptop_batt_add(struct power_supply *battery, struct acpi_battery_hook *hook)
 {
 	if (strcmp(battery->desc->name, "BAT0") != 0)
 		return 0;
@@ -80,7 +80,7 @@ static int qc71_laptop_batt_add(struct power_supply *battery)
 	return device_add_groups(&battery->dev, qc71_laptop_batt_groups);
 }
 
-static int qc71_laptop_batt_remove(struct power_supply *battery)
+static int qc71_laptop_batt_remove(struct power_supply *battery, struct acpi_battery_hook *hook)
 {
 	if (strcmp(battery->desc->name, "BAT0") != 0)
 		return 0;
