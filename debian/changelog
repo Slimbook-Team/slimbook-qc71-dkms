@@ -1,3 +1,9 @@
+slimbook-qc71-dkms (0.2.2) jammy; urgency=low
+
+  * Lt-Henry repair kernel compatibility 5.x and 6.x.
+
+ -- Slimbook <dev@slimbook.es>  Thu, 17 Aug 2023 11:52:04 +0200
+
 slimbook-qc71-dkms (0.2.1) focal; urgency=low
 
   * Add vendor check for features.
