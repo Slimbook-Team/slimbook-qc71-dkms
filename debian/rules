@@ -6,7 +6,7 @@
 
 DEB_NAME=slimbook-qc71
 NAME=slimbook-qc71
-VERSION=0.2.3
+VERSION=0.0
 
 configure: configure-stamp
 configure-stamp:

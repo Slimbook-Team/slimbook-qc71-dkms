@@ -1,3 +1,9 @@
+slimbook-qc71-dkms (0.2.4) jammy; urgency=medium
+
+  * Fixed broken package process
+
+ -- Slimbook <dev@slimbook.es>  Thu, 31 Aug 2023 12:57:12 +0200
+
 slimbook-qc71-dkms (0.2.3) jammy; urgency=high
 
   * Fixed broken post install dkms process
