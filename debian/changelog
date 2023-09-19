@@ -1,3 +1,9 @@
+slimbook-qc71-dkms (0.2.5~noreport188) jammy; urgency=medium
+
+  * inhibited 188 event (test release)
+
+ -- Slimbook <dev@slimbook.es>  Tue, 19 Sep 2023 14:45:28 +0200
+
 slimbook-qc71-dkms (0.2.5) jammy; urgency=medium
 
   * ANtoher attempt to fix dkms and packaging
