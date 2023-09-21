@@ -12,6 +12,7 @@
 #include "misc.h"
 #include "pdev.h"
 #include "wmi.h"
+#include "ec.h"
 
 /* ========================================================================== */
 
@@ -261,7 +262,7 @@ static void qc71_wmi_event_d2_handler(union acpi_object *obj)
 		break;
 	/* perf mode button pressed */
 	case 188:
-		pr_info("change perf mode\n");
+		pr_info("change perf mode %u\n",ec_read_byte(FAN_CTRL_ADDR));
 		do_report = false;
 		/* TODO: should it be handled here? */
 		sysfs_notify(&qc71_platform_dev->dev.kobj, NULL, "silent_mode");
