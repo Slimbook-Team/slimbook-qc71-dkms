@@ -1,3 +1,11 @@
+slimbook-qc71-dkms (0.3.0) jammy; urgency=medium
+
+  * Added support for new Slimbook Hero
+  * No longer sending wmi virtual key strokes
+  * A bit less verbose
+
+ -- Slimbook <dev@slimbook.es>  Sun, 29 Oct 2023 22:04:34 +0100
+
 slimbook-qc71-dkms (0.2.5) jammy; urgency=medium
 
   * ANtoher attempt to fix dkms and packaging
