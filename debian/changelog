@@ -1,3 +1,10 @@
+slimbook-qc71-dkms (0.3.2) jammy; urgency=medium
+
+  * Updated to 4815fb9757278d9354a8611bc18ca7d7df7474f4
+  * Enabled another register flag for HERO backlight
+
+ -- Slimbook <dev@slimbook.es>  Thu, 16 Nov 2023 15:56:09 +0100
+
 slimbook-qc71-dkms (0.3.1) jammy; urgency=medium
 
   * Updated qc71_laptop to 017a77facca851644684a264a0fe96feff9f9128
