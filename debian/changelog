@@ -1,3 +1,10 @@
+slimbook-qc71-dkms (0.3.1) jammy; urgency=medium
+
+  * Updated qc71_laptop to 017a77facca851644684a264a0fe96feff9f9128
+  * Enables custom backlight color for HERO
+
+ -- Slimbook <dev@slimbook.es>  Thu, 16 Nov 2023 12:00:19 +0100
+
 slimbook-qc71-dkms (0.3.0) jammy; urgency=medium
 
   * Added support for new Slimbook Hero
