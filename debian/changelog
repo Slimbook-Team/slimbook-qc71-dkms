@@ -1,3 +1,10 @@
+slimbook-qc71-dkms (0.4.0) noble; urgency=medium
+
+  * Applied upstream changes: 6305ec382fb16dc835e4c62c2b6cfcdaf013a83a
+  * Added support for incoming Evo and Creative models
+
+ -- Slimbook <dev@slimbook.es>  Thu, 05 Dec 2024 11:02:33 +0100
+
 slimbook-qc71-dkms (0.3.3) jammy; urgency=medium
 
   * Updated to fc37de1112915248c1a940716edc2fbbe1699f9d
