@@ -1,3 +1,9 @@
+slimbook-qc71-dkms (0.4.2.0~bpo22.04.0) jammy; urgency=medium
+
+  * Backport from noble
+
+ -- Slimbook <dev@slimbook.es>  Tue, 18 Feb 2025 15:02:41 +0100
+
 slimbook-qc71-dkms (0.4.1.1~bpo22.04.0) jammy; urgency=medium
 
   * Backport from noble
