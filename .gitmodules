@@ -1,4 +1,4 @@
 [submodule "slimbook-qc71-0.0"]
 	path = slimbook-qc71-0.0
 	url = https://github.com/Slimbook-Team/qc71_laptop.git
-	branch = slimbook
+	branch = generic_slimbook
