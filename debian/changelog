@@ -1,3 +1,12 @@
+slimbook-qc71-dkms (1.0.0~fallsupdate0) noble; urgency=medium
+
+  * Moved performance logic to user-space
+  * Added keyboard backlight led interface
+  * Feature detection is not so dmi product based
+  * Custom TDP set
+
+ -- Slimbook <dev@slimbook.es>  Fri, 03 Oct 2025 08:13:19 +0200
+
 slimbook-qc71-dkms (0.4.4.0) noble; urgency=medium
 
   * Added new Evo models to dmi detection 
