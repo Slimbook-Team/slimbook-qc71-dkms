@@ -1,3 +1,9 @@
+slimbook-qc71-dkms (1.0.1) noble; urgency=medium
+
+  * Switching a needed EC register in experimental custom tdp feature (still wip and experimental)
+
+ -- Slimbook <dev@slimbook.es>  Fri, 09 Jan 2026 23:44:24 +0100
+
 slimbook-qc71-dkms (1.0.0~fallsupdate1) noble; urgency=medium
 
   * Using same profile constants as libslimbook
