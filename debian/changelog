@@ -1,3 +1,9 @@
+slimbook-qc71-dkms (1.1.0) noble; urgency=medium
+
+  * Exposing a custom mode flag, so user space is able to know if custom tdp is being used
+
+ -- Slimbook <dev@slimbook.es>  Tue, 24 Feb 2026 17:56:44 +0100
+
 slimbook-qc71-dkms (1.0.1) noble; urgency=medium
 
   * Switching a needed EC register in experimental custom tdp feature (still wip and experimental)
