@@ -1,3 +1,9 @@
+slimbook-qc71-dkms (1.1.0~resolute0) resolute; urgency=medium
+
+  * Upload to 26.04
+
+ -- Slimbook <dev@slimbook.es>  Thu, 02 Apr 2026 08:19:09 +0200
+
 slimbook-qc71-dkms (1.1.0) noble; urgency=medium
 
   * Exposing a custom mode flag, so user space is able to know if custom tdp is being used
