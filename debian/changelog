@@ -1,3 +1,9 @@
+slimbook-qc71-dkms (1.1.0~resolute1) resolute; urgency=medium
+
+  * wip modernizing package
+
+ -- Slimbook <dev@slimbook.es>  Thu, 02 Apr 2026 08:29:20 +0200
+
 slimbook-qc71-dkms (1.1.0~resolute0) resolute; urgency=medium
 
   * Upload to 26.04
