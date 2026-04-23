@@ -3,6 +3,8 @@
 
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
+export NAME=slimbook-qc71
+export VERSION=0.0
 
 %:
 	dh $@
